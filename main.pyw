@@ -18,7 +18,7 @@ class np:
         elif (a=="New"):
             np.newf()
         elif (a=="New Window"):
-            sp.Popen("pythonw 1.pyw",shell=False)
+            sp.Popen("main.exe",shell=False)
         elif (a=="Save"):
             np.savef()
         elif (a=="Open"):
